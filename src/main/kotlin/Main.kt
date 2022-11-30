@@ -68,7 +68,7 @@ fun main() {
 
     val emails = File("emails.txt")
 
-    validator.getEmails("...^&*(ema.i.5546546.56.l@e.m.a457954nv95979&%*^i.l.co0000ff-m.c-o-m.c-o-m-.c-om.c-o-m").forEach {
+    validator.getValidFromText("...^&*(ema.i.5546546.56.l@e.m.a457954nv95979&%*^i.l.co0000ff-m.c-o-m.c-o-m-.c-om.c-o-m").forEach {
         emails.appendText(it + System.lineSeparator())
     }
 
